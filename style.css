@@ -27,6 +27,8 @@
 	text-align: right;
 	vertical-align: center;
 	color: #2d3c49;
+	margin-top: 20px;
+	padding-top: 20px;
 }
 
 #dev_name{
@@ -59,7 +61,7 @@
 	}
  }
 
-  @media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
 	#dev_name{
 		font-size: 1.8em;
 		text-align: right;
@@ -70,6 +72,35 @@
 	}
  }
 
+ @media screen and (max-width: 540px) {
+	#dev_name{
+		font-size: 1.5em;
+		text-align: right;
+	}
+	#title{
+		font-size: 0.9em;
+		text-align: right;
+	}
+
+ }
+
+ @media screen and (max-width: 429px) {
+	#dev_name{
+		font-size: 1.2em;
+		text-align: right;
+	}
+	#title{
+		font-size: 0.9em;
+		text-align: right;
+	}
+ }
+
+ @media screen and (max-width: 354px) {
+	.name{
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
 
 .logo{
 	text-align: left;
