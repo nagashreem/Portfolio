@@ -3,26 +3,6 @@
 	margin-right: auto;
 }
 
-
-.img-fluid{
-	width: 100%;
-	height: auto;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-.credit{
-	font-size: 75%;
-	position: absolute;
-	text-align: left;
-	width: 100%;
-	padding-top: 30px;
-	color: #7d97ad;
-	font-style: italic;
-}
-
 .name{
 	text-align: right;
 	vertical-align: center;
@@ -38,7 +18,6 @@
 	font-weight: 300;
 	line-height: 1;
 	text-align: right;
-
 }
 
 #title{
@@ -48,58 +27,6 @@
 	font-weight: 500;
 	line-height: 1;
 	text-align: right;
-}
-
- @media screen and (max-width: 1000px) {
-	#dev_name{
-		font-size: 2em;
-		text-align: right;
-	}
-	#title{
-		font-size: 1.2em;
-		text-align: right;
-	}
- }
-
- @media screen and (max-width: 800px) {
-	#dev_name{
-		font-size: 1.8em;
-		text-align: right;
-	}
-	#title{
-		font-size: 1.1em;
-		text-align: right;
-	}
- }
-
- @media screen and (max-width: 540px) {
-	#dev_name{
-		font-size: 1.5em;
-		text-align: right;
-	}
-	#title{
-		font-size: 0.9em;
-		text-align: right;
-	}
-
- }
-
- @media screen and (max-width: 429px) {
-	#dev_name{
-		font-size: 1.2em;
-		text-align: right;
-	}
-	#title{
-		font-size: 0.9em;
-		text-align: right;
-	}
- }
-
- @media screen and (max-width: 354px) {
-	.name{
-		margin-top: 0;
-		padding-top: 0;
-	}
 }
 
 .logo{
@@ -116,6 +43,71 @@ hr{
 	border-color:  #7d97ad;
 	line-height: 0;
 	margin-top: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.img-fluid{
+	width: 100%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1000px) {
+	#dev_name{
+		font-size: 2em;
+		text-align: right;
+	}
+	#title{
+		font-size: 1.2em;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#dev_name{
+		font-size: 1.8em;
+		text-align: right;
+	}
+	#title{
+		font-size: 1.1em;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	#dev_name{
+		font-size: 1.5em;
+		text-align: right;
+	}
+	#title{
+		font-size: 0.9em;
+		text-align: right;
+	}
+
+}
+
+@media screen and (max-width: 429px) {
+	#dev_name{
+		font-size: 1.2em;
+		text-align: right;
+	}
+	#title{
+		font-size: 0.9em;
+		text-align: right;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.name{
+		margin-top: 0;
+		padding-top: 0;
+	}
+	.fatured{
+		font-size: 2em;
+	}
 }
 
 .featured{
@@ -125,6 +117,11 @@ hr{
 	font-size: 2.5em;
 }
 
+
+.picture{
+	line-height: 0.5em;
+}
+
 .caption{
 	text-align: center;
 	color: #2d3c49;
@@ -132,7 +129,12 @@ hr{
 	line-height: 0.5em;
 }
 
-.picture{
-	line-height: 0.5em;
+.credit{
+	font-size: 75%;
+	position: absolute;
+	text-align: left;
+	width: 100%;
+	padding-top: 30px;
+	color: #7d97ad;
+	font-style: italic;
 }
-
