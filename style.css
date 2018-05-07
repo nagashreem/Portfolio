@@ -106,7 +106,10 @@ hr{
 		padding-top: 0;
 	}
 	.fatured{
-		font-size: 2em;
+		font-size: 80%;
+	}
+	.caption{
+		font-size: 80%;
 	}
 }
 
